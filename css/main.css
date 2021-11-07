@@ -99,8 +99,7 @@
   /* div class prices */
 
   .prices h1{
-    color: #252160;font-family: 'Nunito', sans-serif;
-    font-weight: 700;margin-top: 7px;
+    margin-top: 7px;
   }
 
   .prices ul{
@@ -114,7 +113,7 @@
     width: 570px;margin: 2px;border-radius: 18px;
   }
 
-  .card b{
+  .card b, section b{
     color: #32B5FF;font-family: 'Nunito';
   }
 
@@ -151,6 +150,17 @@
     font-weight: 700;border-radius: 6px;
   }
 
+  /*section*/
+  section{
+    font-family: 'Nunito', sans-serif;
+  }
+
+  /* section h1{color: #252160;} */
+  .subtitle{color: #252160;font-family: 'Nunito', sans-serif;font-weight: 700;}
+  .title-section{color: #32B5FF;font-weight: 700;}
+  .card-text{color: #7B7B7B;}
+  .card-img-top{width: 200px;}
+
 @media only screen and (max-width: 700px){
     .header-img-div, .article-img{display: none;}
     
@@ -179,4 +189,7 @@
 
     .card{width: 355px;margin-left: 5px;}
     .primary-card img{width: 95px;margin:auto;display: flex;justify-content: center;}
+
+    .title-section{width: 80vw;text-align: center;font-size: 1.2rem;}
+    .subtitle{width: 80vw;text-align: center;font-size: 1.4rem;}
 }
