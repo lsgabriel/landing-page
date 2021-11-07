@@ -75,6 +75,82 @@
   }
 
 
+  /*section with image*/
+  .section-text{
+    padding: 25px;
+  }
+
+  .section-text h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;color: #252160;
+    margin-top: 15px;
+  }
+
+  .section-text p{
+    color: #7B7B7B;
+    font-size: 1.5rem;
+  }
+
+  .section-img img{
+    width: 400px;padding: 5px;margin: auto;
+    justify-content: center;display: flex;
+  }
+
+  /* div class prices */
+
+  .prices h1{
+    color: #252160;font-family: 'Nunito', sans-serif;
+    font-weight: 700;margin-top: 7px;
+  }
+
+  .prices ul{
+    font-family: 'Nunito', sans-serif;margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .prices li{padding: 6px;font-size: 0.9rem;}
+
+  .card{
+    width: 570px;margin: 2px;border-radius: 18px;
+  }
+
+  .card b{
+    color: #32B5FF;font-family: 'Nunito';
+  }
+
+  .card h2{
+    font-weight: 700;font-family: 'Nunito', sans-serif;
+  }
+  .card p{font-family: 'Nunito', sans-serif;}
+
+  .primary-card{
+    background-color: #252160;color: white;
+    padding: 30px;
+  }
+
+  .primary-card img{width: 122px;}
+
+  .card-btn-1{
+    width: 190px;padding: 10px;border: none;color: white;
+    background-image: linear-gradient(to top left,#26E9CF, #73e9d9);
+    font-weight: 700;border-radius: 6px;
+  }
+
+  .secondary-card{
+    background-color: white;border: solid 1px #201E542E;
+    padding: 30px;
+  }
+
+  .secondary-card ul{
+    color: #252160;
+  }
+
+  .card-btn-2{
+    width: 190px;padding: 10px;border: none;color: white;
+    background-color: #252160;
+    font-weight: 700;border-radius: 6px;
+  }
+
 @media only screen and (max-width: 700px){
     .header-img-div, .article-img{display: none;}
     
@@ -95,4 +171,12 @@
     .icons-article{display:flex;justify-content: center;margin-bottom: 15px;}
     .col-md-9{text-align: center;}
     .secondary-btn{width: 95%;margin-left: 6px;}
+
+    .section-img img{width: 240px;padding: 0;margin: 30px;}
+    .section-text{padding: 10px;text-align: center;width: 80vw;}
+    .section-text h1{font-size:1.4rem;}
+    .section-text p{font-size: 1.1rem;}
+
+    .card{width: 355px;margin-left: 5px;}
+    .primary-card img{width: 95px;margin:auto;display: flex;justify-content: center;}
 }
