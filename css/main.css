@@ -28,12 +28,12 @@
   header p {
     font-size: 1.2rem;
   }
-  
-  header .title{
+
+  .title{
     color: #3AFFE5;width: 88%;font-weight: 700;
   }
   
-  header .robot-logo{
+  .robot-logo{
     width: 11%;height: 14%;
   }
 
@@ -155,16 +155,33 @@
     font-family: 'Nunito', sans-serif;
   }
 
-  /* section h1{color: #252160;} */
   .subtitle{color: #252160;font-family: 'Nunito', sans-serif;font-weight: 700;}
   .title-section{color: #32B5FF;font-weight: 700;}
   .card-text{color: #7B7B7B;}
   .card-img-top{width: 200px;}
 
+
+  /*download app div*/
+  .download{
+    background-color: #252160;
+  }
+
+  .d-img{
+    width: 455px;padding: 20px;
+  }
+
+  .d-text{
+    margin-top: 30vh;padding: 5px;
+  }
+
+  .d-text .text{
+    color: white;font-size: 1.4rem;
+    width: 90%;font-weight: 400;
+  }
+
 @media only screen and (max-width: 700px){
     .header-img-div, .article-img{display: none;}
-    
-}
+  }
 
 @media only screen and (max-width: 445px){
     nav .btn{margin-left: 0;}
@@ -172,9 +189,11 @@
     header{text-align: center;}
     header .header-text{padding: 20px;}
     header h1{font-size: 2.6rem;}
-    header .robot-logo{width: 27%;height: 55px;margin: auto;}
-    header .title{width: 100%;margin-top: 25px;}
-    .primary-btn{width: 95%;}
+    
+    .robot-logo{width: 27%;height: 55px;margin: auto;}
+    .title{width: 100%;margin-top: 25px;}
+
+    .primary-btn{width: 80%;margin: auto;}
 
     .logos-div{height: 21vh;}
 
@@ -192,4 +211,8 @@
 
     .title-section{width: 80vw;text-align: center;font-size: 1.2rem;}
     .subtitle{width: 80vw;text-align: center;font-size: 1.4rem;}
+
+    .download{padding: 15px;}
+    .d-img{width: 266px;}.d-text .robot-logo{width: 22%;}
+    .d-text .text{font-size: 1rem;text-align: center;width: 85%;}
 }
