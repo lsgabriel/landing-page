@@ -179,6 +179,23 @@
     width: 90%;font-weight: 400;
   }
 
+  /* footer */
+  .footer-img-1{
+    width: 240px;padding: 10px;
+  }
+
+  .footer-img-2{
+    width: 295px;padding: 10px;
+  }
+
+  .footer-primary{
+    color: #252160;font-weight: 500;
+  }
+
+  .footer-secondary{
+    color: #7B7B7B;
+  }
+
 @media only screen and (max-width: 700px){
     .header-img-div, .article-img{display: none;}
   }
@@ -215,4 +232,7 @@
     .download{padding: 15px;}
     .d-img{width: 266px;}.d-text .robot-logo{width: 22%;}
     .d-text .text{font-size: 1rem;text-align: center;width: 85%;}
+
+    .footer-texts{text-align: center;}
+    .s-media{margin-bottom: 30px;margin-top: 20px;}
 }
